@@ -12,6 +12,11 @@
 		7A5879C8223F262A0039F314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A5879C6223F262A0039F314 /* Main.storyboard */; };
 		7A5879CA223F262C0039F314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A5879C9223F262C0039F314 /* Assets.xcassets */; };
 		7A5879CD223F262C0039F314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A5879CB223F262C0039F314 /* LaunchScreen.storyboard */; };
+		7A5879E0223F28BF0039F314 /* hh.Stance in Resources */ = {isa = PBXBuildFile; fileRef = 7A5879D6223F28BF0039F314 /* hh.Stance */; };
+		7A5879E1223F28BF0039F314 /* hh.Stance in Resources */ = {isa = PBXBuildFile; fileRef = 7A5879D8223F28BF0039F314 /* hh.Stance */; };
+		7A5879E2223F28BF0039F314 /* hh.Stance in Resources */ = {isa = PBXBuildFile; fileRef = 7A5879DB223F28BF0039F314 /* hh.Stance */; };
+		7A5879E3223F28BF0039F314 /* hh.Stance in Resources */ = {isa = PBXBuildFile; fileRef = 7A5879DD223F28BF0039F314 /* hh.Stance */; };
+		7A5879E4223F28BF0039F314 /* hh.Stance in Resources */ = {isa = PBXBuildFile; fileRef = 7A5879DF223F28BF0039F314 /* hh.Stance */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		7A5879C9223F262C0039F314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A5879CC223F262C0039F314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A5879CE223F262C0039F314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A5879D6223F28BF0039F314 /* hh.Stance */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hh.Stance; sourceTree = "<group>"; };
+		7A5879D8223F28BF0039F314 /* hh.Stance */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hh.Stance; sourceTree = "<group>"; };
+		7A5879DB223F28BF0039F314 /* hh.Stance */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hh.Stance; sourceTree = "<group>"; };
+		7A5879DD223F28BF0039F314 /* hh.Stance */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hh.Stance; sourceTree = "<group>"; };
+		7A5879DF223F28BF0039F314 /* hh.Stance */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hh.Stance; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 		7A5879C1223F262A0039F314 /* SwiftBaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				7A5879D4223F28BF0039F314 /* Class */,
 				7A5879C2223F262A0039F314 /* AppDelegate.swift */,
 				7A5879C4223F262A0039F314 /* ViewController.swift */,
 				7A5879C6223F262A0039F314 /* Main.storyboard */,
@@ -62,6 +73,66 @@
 				7A5879CE223F262C0039F314 /* Info.plist */,
 			);
 			path = SwiftBaseProject;
+			sourceTree = "<group>";
+		};
+		7A5879D4223F28BF0039F314 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				7A5879D7223F28BF0039F314 /* Model */,
+				7A5879DE223F28BF0039F314 /* ViewModel */,
+				7A5879DC223F28BF0039F314 /* View */,
+				7A5879D5223F28BF0039F314 /* CommonFile */,
+				7A5879D9223F28BF0039F314 /* Other */,
+				7A5879DA223F28BF0039F314 /* Source */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		7A5879D5223F28BF0039F314 /* CommonFile */ = {
+			isa = PBXGroup;
+			children = (
+				7A5879D6223F28BF0039F314 /* hh.Stance */,
+			);
+			path = CommonFile;
+			sourceTree = "<group>";
+		};
+		7A5879D7223F28BF0039F314 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A5879D8223F28BF0039F314 /* hh.Stance */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A5879D9223F28BF0039F314 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		7A5879DA223F28BF0039F314 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				7A5879DB223F28BF0039F314 /* hh.Stance */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		7A5879DC223F28BF0039F314 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A5879DD223F28BF0039F314 /* hh.Stance */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A5879DE223F28BF0039F314 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7A5879DF223F28BF0039F314 /* hh.Stance */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +193,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A5879E1223F28BF0039F314 /* hh.Stance in Resources */,
+				7A5879E2223F28BF0039F314 /* hh.Stance in Resources */,
+				7A5879E3223F28BF0039F314 /* hh.Stance in Resources */,
 				7A5879CD223F262C0039F314 /* LaunchScreen.storyboard in Resources */,
+				7A5879E0223F28BF0039F314 /* hh.Stance in Resources */,
+				7A5879E4223F28BF0039F314 /* hh.Stance in Resources */,
 				7A5879CA223F262C0039F314 /* Assets.xcassets in Resources */,
 				7A5879C8223F262A0039F314 /* Main.storyboard in Resources */,
 			);
