@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A0FF1F72242176000C62B02 /* Bundle+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0FF1F62242176000C62B02 /* Bundle+extension.swift */; };
+		7A0FF1F922421A1900C62B02 /* UILabel+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0FF1F822421A1900C62B02 /* UILabel+extension.swift */; };
+		7A0FF1FB22421A8900C62B02 /* UITextFiled+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0FF1FA22421A8900C62B02 /* UITextFiled+extension.swift */; };
+		7A0FF1FE22421C0A00C62B02 /* UIButton+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0FF1FD22421C0A00C62B02 /* UIButton+extension.swift */; };
+		7A0FF20022421E0F00C62B02 /* String+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0FF1FF22421E0F00C62B02 /* String+extension.swift */; };
+		7A0FF2022242246B00C62B02 /* NSObject+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0FF2012242246B00C62B02 /* NSObject+extension.swift */; };
 		7A5879C3223F262A0039F314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5879C2223F262A0039F314 /* AppDelegate.swift */; };
 		7A5879C5223F262A0039F314 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5879C4223F262A0039F314 /* ViewController.swift */; };
 		7A5879C8223F262A0039F314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A5879C6223F262A0039F314 /* Main.storyboard */; };
@@ -24,6 +30,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A0FF1F62242176000C62B02 /* Bundle+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+extension.swift"; sourceTree = "<group>"; };
+		7A0FF1F822421A1900C62B02 /* UILabel+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+extension.swift"; sourceTree = "<group>"; };
+		7A0FF1FA22421A8900C62B02 /* UITextFiled+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextFiled+extension.swift"; sourceTree = "<group>"; };
+		7A0FF1FD22421C0A00C62B02 /* UIButton+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+extension.swift"; sourceTree = "<group>"; };
+		7A0FF1FF22421E0F00C62B02 /* String+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+extension.swift"; sourceTree = "<group>"; };
+		7A0FF2012242246B00C62B02 /* NSObject+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+extension.swift"; sourceTree = "<group>"; };
 		7A5879BF223F262A0039F314 /* SwiftBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A5879C2223F262A0039F314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A5879C4223F262A0039F314 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -158,6 +170,12 @@
 			isa = PBXGroup;
 			children = (
 				7A5879F7223F2F8C0039F314 /* UIColor+Extension.swift */,
+				7A0FF1F62242176000C62B02 /* Bundle+extension.swift */,
+				7A0FF1F822421A1900C62B02 /* UILabel+extension.swift */,
+				7A0FF1FA22421A8900C62B02 /* UITextFiled+extension.swift */,
+				7A0FF1FD22421C0A00C62B02 /* UIButton+extension.swift */,
+				7A0FF1FF22421E0F00C62B02 /* String+extension.swift */,
+				7A0FF2012242246B00C62B02 /* NSObject+extension.swift */,
 			);
 			path = "Extension+Swift";
 			sourceTree = "<group>";
@@ -249,10 +267,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A5879F1223F2F090039F314 /* ConditionBuild.swift in Sources */,
+				7A0FF1F72242176000C62B02 /* Bundle+extension.swift in Sources */,
 				7A5879F2223F2F090039F314 /* ConstFile.swift in Sources */,
 				7A5879C5223F262A0039F314 /* ViewController.swift in Sources */,
 				7A5879C3223F262A0039F314 /* AppDelegate.swift in Sources */,
+				7A0FF1FB22421A8900C62B02 /* UITextFiled+extension.swift in Sources */,
+				7A0FF20022421E0F00C62B02 /* String+extension.swift in Sources */,
 				7A5879F8223F2F8C0039F314 /* UIColor+Extension.swift in Sources */,
+				7A0FF1F922421A1900C62B02 /* UILabel+extension.swift in Sources */,
+				7A0FF2022242246B00C62B02 /* NSObject+extension.swift in Sources */,
+				7A0FF1FE22421C0A00C62B02 /* UIButton+extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

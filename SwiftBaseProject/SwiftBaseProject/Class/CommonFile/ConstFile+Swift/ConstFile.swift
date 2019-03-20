@@ -60,14 +60,26 @@ func IS_IPHONE_X() -> Bool {
     return false
 }
 
+//常用的变量
+var keyWindow: UIWindow? {
+    get {
+        return UIApplication.shared.keyWindow
+    }
+}
+
+
 
 //TODO:Print函数
 //MARK: 全局函数 T是泛型 传入不同的参数
 func CCLog<T>(_ message:T,file:String = #file,funcName:String = #function,lineNum:Int = #line){
     
+    #if DEBUG
+    
     let file = (file as NSString).lastPathComponent;
     // 文件名：行数---要打印的信息
     print("\(file):(\(lineNum))--\(message)");
+    
+    #endif
     
 }
 
