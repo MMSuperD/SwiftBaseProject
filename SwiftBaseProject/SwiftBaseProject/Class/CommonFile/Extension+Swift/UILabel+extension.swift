@@ -19,4 +19,20 @@ extension UILabel {
         }
         font = UIFont.systemFont(ofSize: CGFloat(fontsize))
     }
+    
+    class func share(title: String?,color: String?, fontsize: Float?) -> UILabel{
+        
+        let label = UILabel()
+        
+        if let title = title {
+            label.text = title
+        }
+        if let color = color {
+            label.textColor = UIColor(hexString: color)
+        }
+        if let fontsize = fontsize {
+            label.font = UIFont.systemFont(ofSize:CGFloat(fontsize))
+        }
+        return label;
+    }
 }
