@@ -89,8 +89,13 @@ func currentDeviceVersion() -> (String) {
 }
 
 //TODO:UIColor
-func RandomColor() -> () {
-    //FIXME: 未实现
+func RandomColor() -> (UIColor) {
+   // //FIXME: 未实现
+    let r = Float(arc4random() % 255)/255.0
+    let g = Float(arc4random() % 255)/255.0
+    let b = Float(arc4random() % 255)/255.0
+    let color = UIColor(displayP3Red: CGFloat(r), green: CGFloat(g), blue: CGFloat(b), alpha: CGFloat(1))
+    return color
 }
 
 //TODO:UIImage

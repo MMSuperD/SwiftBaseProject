@@ -28,6 +28,9 @@
 		7A5879F1223F2F090039F314 /* ConditionBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5879EF223F2F090039F314 /* ConditionBuild.swift */; };
 		7A5879F2223F2F090039F314 /* ConstFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5879F0223F2F090039F314 /* ConstFile.swift */; };
 		7A5879F8223F2F8C0039F314 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5879F7223F2F8C0039F314 /* UIColor+Extension.swift */; };
+		B7003C87228AA3A500465410 /* SDTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7003C86228AA3A500465410 /* SDTabBarController.swift */; };
+		B7003C89228AA3CB00465410 /* SDBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7003C88228AA3CB00465410 /* SDBaseNavigationController.swift */; };
+		B7003C8B228AA3E000465410 /* SDBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7003C8A228AA3E000465410 /* SDBaseViewController.swift */; };
 		B7B7EA5922818BC3008420DA /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B7EA5822818BC3008420DA /* UIView+extension.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +58,9 @@
 		7A5879EF223F2F090039F314 /* ConditionBuild.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionBuild.swift; sourceTree = "<group>"; };
 		7A5879F0223F2F090039F314 /* ConstFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstFile.swift; sourceTree = "<group>"; };
 		7A5879F7223F2F8C0039F314 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		B7003C86228AA3A500465410 /* SDTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDTabBarController.swift; sourceTree = "<group>"; };
+		B7003C88228AA3CB00465410 /* SDBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDBaseNavigationController.swift; sourceTree = "<group>"; };
+		B7003C8A228AA3E000465410 /* SDBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDBaseViewController.swift; sourceTree = "<group>"; };
 		B7B7EA5822818BC3008420DA /* UIView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,6 +155,7 @@
 		7A5879DC223F28BF0039F314 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B7003C85228AA32900465410 /* Controller */,
 				7A5879DD223F28BF0039F314 /* hh.Stance */,
 			);
 			path = View;
@@ -195,6 +202,16 @@
 			path = "ConstFile+Swift";
 			sourceTree = "<group>";
 		};
+		B7003C85228AA32900465410 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B7003C86228AA3A500465410 /* SDTabBarController.swift */,
+				B7003C88228AA3CB00465410 /* SDBaseNavigationController.swift */,
+				B7003C8A228AA3E000465410 /* SDBaseViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -221,6 +238,7 @@
 		7A5879B7223F262A0039F314 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SD;
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = WangDan;
@@ -278,12 +296,15 @@
 				7A5879C5223F262A0039F314 /* ViewController.swift in Sources */,
 				B7B7EA5922818BC3008420DA /* UIView+extension.swift in Sources */,
 				7A5879C3223F262A0039F314 /* AppDelegate.swift in Sources */,
+				B7003C8B228AA3E000465410 /* SDBaseViewController.swift in Sources */,
 				7A0FF1FB22421A8900C62B02 /* UITextFiled+extension.swift in Sources */,
+				B7003C89228AA3CB00465410 /* SDBaseNavigationController.swift in Sources */,
 				7A0FF20022421E0F00C62B02 /* String+extension.swift in Sources */,
 				7A5879F8223F2F8C0039F314 /* UIColor+Extension.swift in Sources */,
 				7A0FF1F922421A1900C62B02 /* UILabel+extension.swift in Sources */,
 				7A0FF22F22436F7B00C62B02 /* FileManager+extension.swift in Sources */,
 				7A0FF2022242246B00C62B02 /* NSObject+extension.swift in Sources */,
+				B7003C87228AA3A500465410 /* SDTabBarController.swift in Sources */,
 				7A0FF1FE22421C0A00C62B02 /* UIButton+extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
