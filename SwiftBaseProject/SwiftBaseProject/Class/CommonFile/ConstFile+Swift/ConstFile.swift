@@ -24,19 +24,19 @@ let SCREEN_SIZE   = UIScreen.main.bounds.size
 let SCREEN_BOUNDS   = UIScreen.main.bounds
 
 //顶部安全区域
-let SAVEAREA_TOP = (IS_IPHONE_X()) ? CGFloat(24.0) : CGFloat(0.0)
+let SAVEAREA_TOP = (IS_IPHONE_X()) ? CGFloat(34.0) : CGFloat(20)
 
 //底部安全区域
 let SAVEAREA_BTM = (IS_IPHONE_X()) ? CGFloat(34.0) : CGFloat(0.0)
 
 //状态栏的高度
-let STATUSBAR_HEIGHT = (IS_IPHONE_X()) ? CGFloat(44.0) : CGFloat(20.0)
+let STATUSBAR_HEIGHT = (IS_IPHONE_X()) ? CGFloat(34.0) : CGFloat(20.0)
 
 //导航栏的高度
-let NAVBAR_HEIGHT = (IS_IPHONE_X()) ? CGFloat(44.0) : CGFloat(20.0)
+let NAVBAR_HEIGHT = (IS_IPHONE_X()) ? CGFloat(54.0) : CGFloat(44.0)
 
 //状态栏 + 导航栏 的高度
-let STATUSBAR_NAVBAR_HEIGHT = (IS_IPHONE_X()) ? CGFloat(44.0) : CGFloat(20.0)
+let STATUSBAR_NAVBAR_HEIGHT = STATUSBAR_HEIGHT + NAVBAR_HEIGHT
 
 //TabBar的高度
 let TARBAR_HEIGHT = (IS_IPHONE_X()) ? CGFloat(83.0) : CGFloat(49.0)
