@@ -45,18 +45,15 @@ let TARBAR_HEIGHT = (IS_IPHONE_X()) ? CGFloat(83.0) : CGFloat(49.0)
 //判断是否是IPHONE X 系列
 func IS_IPHONE_X() -> Bool {
     
-    if  SCREEN_SIZE.equalTo(CGSize(width: 375, height: 812)){
-        return true
+    guard #available(iOS 11.0, *) else {
+        return false
     }
-    if  SCREEN_SIZE.equalTo(CGSize(width: 812, height: 375)){
-        return true
+    
+    if #available(iOS 11.0, *) {
+        let isX = UIApplication.shared.windows.first!.safeAreaInsets.bottom > 0
+        return isX
     }
-    if  SCREEN_SIZE.equalTo(CGSize(width: 414, height: 896)){
-        return true
-    }
-    if  SCREEN_SIZE.equalTo(CGSize(width: 896, height: 414)){
-        return true
-    }
+    
     return false
 }
 
